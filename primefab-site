@@ -1,1 +1,33 @@
+primefab-site/
+├─ index.html          <-- your main HTML (the code you posted)
+├─ .gitkeep            <-- (empty file – forces repo creation)
+├─ README.md          <-- instructions (see below)
 
+# Primefab Systems – Heavy Metal Engineering Excellence
+
+This repository contains the static landing page for Primefab Systems.  
+It is ready for instant deployment on **Netlify** or **GitHub Pages**.
+
+## 🚀  Deploy to Netlify (Fastest, no Git needed)
+
+1. Go to <https://app.netlify.com/signup> and sign in.  
+2. Click **“New site from Git” → “Deploy manually” → “Drag & drop your folder”**.  
+3. Drag the whole `primefab-site` folder (or zip it) into the drop area.  
+4. Netlify will build & put the site behind an HTTPS URL – e.g.  
+   `https://primefab-site.netlify.app`.  
+5. (Optional) Add your own domain in **Site settings → Domain management → Custom domain**.
+
+## 🏗️  Deploy to GitHub Pages
+
+> **Prerequisite:** GitHub account + (optionally) Git installed.
+
+```bash
+# If you have GitHub CLI available (recommended)
+gh repo create primefab-site --public --source=. --push
+# Or the classic Git commands:
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/<your-username>/primefab-site.git
+git push -u origin main
